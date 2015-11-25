@@ -4,23 +4,58 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "owner",
+            "title":"Owner"
+        },
+        {
+            "id": "repo",
+            "title":"Repo"
+        },
+        {
+            "id": "sha",
+            "title":"Hash"
+        },
+        {
+            "id": "path",
+            "title":"Path"
+        },
+        {
+            "id": "author",
+            "title":"Author"
+        },
+        {
+            "id": "since",
+            "title":"Since"
+        },
+        {
+            "id": "until",
+            "title":"Until"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "sha",
+            "title":"Hash"
+        },
+        {
+            "id": "html_url",
+            "title":"HTML URL"
+        },
+        {
+            "id": "commit",
+            "title":"Commit Info"
+        },
+        {
+            "id": "author",
+            "title":"Author"
+        },
+        {
+            "id": "committer",
+            "title":"Committer"
         }
-      */
     ],
-    "title": "GitHub Get Commits" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "GitHub Get Commits" 
 }
