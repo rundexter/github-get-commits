@@ -56,6 +56,7 @@
             "title":"Committer"
         }
     ],
+    "icon": "github",
     /* Required.A display name for the module */
     "title": "GitHub Get Commits" 
 }
