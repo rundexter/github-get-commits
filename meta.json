@@ -44,16 +44,20 @@
             "title":"HTML URL"
         },
         {
-            "id": "commit",
-            "title":"Commit Info"
+            "id": "commit_url",
+            "title":"Commit URL"
         },
         {
-            "id": "author",
-            "title":"Author"
+            "id": "commit_message",
+            "title":"Commit Message"
         },
         {
-            "id": "committer",
-            "title":"Committer"
+            "id": "author_login",
+            "title":"Author Login"
+        },
+        {
+            "id": "committer_login",
+            "title":"Committer Login"
         }
     ],
     "providers": [{
